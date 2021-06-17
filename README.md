@@ -1,4 +1,4 @@
-# colored_board
+# Сolored_board
 
 ## Краткое описание
 
