@@ -29,6 +29,17 @@ for (let i = 0; i < COUNT_SQUARES; i++) {
     square.addEventListener('mouseleave', () => {
         removeColor(square);
     });
+
+    //Код для сенсорных устройств
+    square.addEventListener('touchstart', () => {
+        const randomColor = getRandomColor();
+        setRandomColor(square, randomColor);
+    });
+
+    square.addEventListener('touchend', () => {
+        removeColor(square);
+    });
+    //************* */
 }
 
 function setRandomColor(element, color) {

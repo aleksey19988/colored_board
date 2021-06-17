@@ -39,7 +39,7 @@ body {
   margin-right: 2px;
   box-shadow: 0 0 2px #000;
   transition: 5s ease;
-  border-radius: 5px;
+  border-radius: 2px;
 }
 
 .square:hover {
@@ -75,4 +75,9 @@ body {
 
 .square-btn {
   border-radius: 5px;
+}
+
+.touch-devices-warning {
+  color: #fff;
+  margin-bottom: 20px;
 }
